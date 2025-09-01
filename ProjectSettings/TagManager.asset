@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coll
+  - Enemy
+  - Laser
+  - PowerUp
   layers:
   - Default
   - TransparentFX
@@ -41,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2594962949
+    locked: 0
+  - name: Foreground
+    uniqueID: 820611007
     locked: 0

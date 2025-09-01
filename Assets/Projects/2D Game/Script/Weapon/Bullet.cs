@@ -10,11 +10,4 @@ public class Bullet : MonoBehaviour
         transform.Translate(Vector3.up * _speedBullet * Time.deltaTime);
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Coll"))
-        {
-            gameObject.SetActive(false);
-        }
-    }
 }
